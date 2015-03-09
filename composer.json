@@ -12,8 +12,6 @@
     },
     "minimum-stability": "dev",
     "autoload": {
-        "psr-0": {
-            "HelloWorld": "src/"
-        }
+        "files": ["src/HelloWorld/SayHello.php"]
     }
 }
