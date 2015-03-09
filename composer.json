@@ -1,0 +1,19 @@
+{
+    "name": "alexvait/hello-world",
+    "description": "another simple test",
+    "authors": [
+        {
+            "name": "Alex Vait",
+            "email": "vait@lieferando.de"
+        }
+    ],
+    "require": {
+        "php": ">=5.2.0"
+    },
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-0": {
+            "HelloWorld": "src/"
+        }
+    }
+}
